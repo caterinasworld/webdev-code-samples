@@ -3,7 +3,8 @@
 This repository contains all the code samples that go with the lecture slides.
 
 It includes exercises on the following topics:
-1. HTML. Accessibility
+1. HTML
+2. Accessibility
 3. CSS
 4. CSS Layout (Flexbox and CSS Grid)
 5. Bootstrap
