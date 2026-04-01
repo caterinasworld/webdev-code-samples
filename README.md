@@ -11,4 +11,3 @@ It includes exercises on the following topics:
 7. Async JavaScript
 8. jQuery
 9. Node.js
-10. Debugging
