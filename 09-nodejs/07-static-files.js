@@ -30,11 +30,7 @@ const server = http.createServer((req, res) => {
       res.writeHead(200, { 'Content-Type': 'text/html' });
       res.write(`<p>This is username: ${username}</p>`);
       res.write(`<p>This is the email: ${email}</p>`);
-      res.write(
-        `<p>The user has checked the newsletter checkbox: ${
-          newsletter || 'no'
-        }</p>`
-      );
+      res.write(`<p>Newsletter sign-up choice: ${newsletter || 'no'}</p>`);
       res.end();
     });
   }
